@@ -1,0 +1,37 @@
+###Real-Time Communication Techniques
+
+#Polling:
+
+#Pros:
+Simple implementation.
+#Cons:
+
+Inefficient and resource-intensive due to constant checking.
+Higher latency for real-time updates.
+
+Use Case: Not recommended for real-time updates due to inefficiency.
+Long-Polling:
+
+#Pros:
+More efficient than regular polling.
+Better for near real-time updates.
+
+#Cons:
+Still incurs some latency and overhead.
+Can be resource-intensive with high user loads.
+
+#Use Case: Suitable for scenarios where WebSockets are not feasible.
+WebSockets:
+
+#Pros:
+Provides a full-duplex communication channel.
+Low latency and efficient for real-time updates.
+
+#Cons:
+More complex implementation.
+Requires maintaining open connections, which can be resource-intensive.
+
+#Use Case: Recommended for real-time updates due to low latency and efficient resource use.
+Recommended Approach
+
+#WebSockets: Best suited for real-time updates, offering low latency and efficient communication. It's highly scalable with proper infrastructure.

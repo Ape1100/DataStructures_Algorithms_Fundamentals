@@ -1,0 +1,7 @@
+Task 1: Identifying Key Operations
+
+The provided sorting algorithm is a variant of Bubble Sort. The key operations include:
+
+Comparisons: Checking if arr[j] > arr[j+1].
+
+Swaps: Exchanging elements when the condition is true.
